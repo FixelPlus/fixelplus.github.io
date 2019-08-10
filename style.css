@@ -1,0 +1,72 @@
+html{
+  font-size: 16px;
+}
+
+p{
+  text-align: justify;
+}
+
+.titles{
+  font-weight: 100;
+  font-family: "Helvetica";
+}
+#header{
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(rgba(47, 79, 79, 0.5), rgba(105, 105, 105, 0.5), rgba(224,255,255, 0.5)),
+                  url("./img/banner.jpg");
+  background-size: 100%;
+  font-size: 5rem;
+  padding: 50px 0px;
+}
+
+.info {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid green;
+  padding-top: 20px;
+}
+
+#p1 {
+  border: 1px solid green;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 20%;
+}
+
+.image img{
+  height: auto;
+  max-width:65%;
+  border: 1px solid green;
+
+}
+
+@media only screen and ( max-width: 320px)
+{
+  .info {
+    padding-top: 10px;
+  }
+  #header{
+    padding: 10px 0px;
+    font-size: 2.5rem;
+  }
+}
+@media only screen and ( max-width: 691px)
+{
+  #header{
+    font-size: 3.5rem;
+  }
+}
+@media only screen and ( max-width: 488px)
+{
+  #header{
+    font-size: 2.5rem;
+  }
+}
+@media only screen and ( max-width: 353px)
+{
+  #header{
+    font-size: 2rem;
+  }
+}
