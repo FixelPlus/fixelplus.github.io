@@ -4,6 +4,7 @@ html{
 body{
   background-image: url("./img/art.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 p{
@@ -19,7 +20,10 @@ p{
 .pdiv{
   border-radius: 30px;
   background: DarkSlateGrey;
-  margin: 0 30%;
+  margin: 0 auto%;
+  min-width: 300px;
+  text-align: center;
+  display: inline-block;
 }
 
 .restinfo{
@@ -27,10 +31,12 @@ p{
   border-radius: 10px;
   color:LightGrey;
   font-size: 1.8rem;
-  margin-left: 40%;
-  margin-right: 40%;
-  padding: 10 50px;
+  margin: 10% auto;
+  padding: 10 auto;
   background-color: #2b7575;
+  min-width: 150px;
+  text-align: center;
+  display: inline-block;
 
 }
 
@@ -38,6 +44,7 @@ p{
   font-weight: 100;
   font-family: "Helvetica";
   color: LightGrey;
+
 }
 
 #header{
@@ -53,6 +60,7 @@ p{
   font-weight: 100;
   font-family: "Helvetica";
   color: LightGrey;
+
 }
 
 a:link{
